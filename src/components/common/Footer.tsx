@@ -83,6 +83,9 @@ const Footer: React.FC = () => {
           <p className="text-gray-400">
             © 2025 {siteConfig.siteName}. Todos os direitos reservados.
           </p>
+          <p className="text-gray-400">
+            <a href="https://alphadevss.com.br" target='_blank' rel='external'>By AlphaDevss.</a>
+          </p>
         </div>
       </div>
     </footer>

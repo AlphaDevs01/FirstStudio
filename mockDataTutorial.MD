@@ -1,10 +1,10 @@
-# 📚 Tutorial de Uso do MockData - TeamCraft
+# 📚 Tutorial de Uso do MockData - FirstStudios
 
-Este tutorial explica como personalizar e gerenciar todo o conteúdo do site TeamCraft através do sistema de MockData.
+Este tutorial explica como personalizar e gerenciar todo o conteúdo do site FirstStudios através do sistema de MockData.
 
 ## 🎯 Visão Geral
 
-O site TeamCraft utiliza um sistema centralizado de dados mockados que permite personalizar todo o conteúdo sem precisar editar múltiplos arquivos. Todos os dados ficam organizados no arquivo `src/data/mockData.ts`.
+O site FirstStudios utiliza um sistema centralizado de dados mockados que permite personalizar todo o conteúdo sem precisar editar múltiplos arquivos. Todos os dados ficam organizados no arquivo `src/data/mockData.ts`.
 
 ## 📁 Estrutura dos Arquivos
 
@@ -21,11 +21,11 @@ src/data/
 
 ```typescript
 export const siteConfig = {
-  siteName: 'TeamCraft',                    // Nome do site
+  siteName: 'FirstStudios',                    // Nome do site
   siteDescription: 'Descrição do site...',  // Descrição para SEO
   
   hero: {
-    title: 'TeamCraft',                     // Título principal da home
+    title: 'FirstStudios',                     // Título principal da home
     subtitle: 'Subtítulo explicativo...',   // Subtítulo da home
     primaryButtonText: 'Ver Projetos',      // Texto do botão principal
     secondaryButtonText: 'Assista Demo'     // Texto do botão secundário

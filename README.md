@@ -1,4 +1,4 @@
-# TeamCraft - Site Estático
+# FirstStudios - Site Estático
 
 Um site moderno e profissional para apresentar os serviços de uma equipe especializada em criação de conteúdo para Minecraft.
 
@@ -168,4 +168,4 @@ O site pode ser facilmente deployado em qualquer plataforma de hospedagem estát
 
 ---
 
-**TeamCraft** - Criando experiências únicas através de modelos 3D excepcionais, programações avançadas e addons inovadores para Minecraft.
+**FirstStudios** - Criando experiências únicas através de modelos 3D excepcionais, programações avançadas e addons inovadores para Minecraft.

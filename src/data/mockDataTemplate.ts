@@ -11,12 +11,12 @@ import { TeamMember, Review, Category, ModelSet, ProgrammingSet, AddonSet } from
 // ==========================================
 export const siteConfig = {
   // Informações básicas
-  siteName: 'TeamCraft',
+  siteName: 'FirstStudioss',
   siteDescription: 'Criamos experiências únicas através de modelos 3D excepcionais, programações avançadas e addons inovadores para Minecraft',
   
   // Hero Section
   hero: {
-    title: 'TeamCraft',
+    title: 'FirstStudioss',
     subtitle: 'Criamos experiências únicas através de modelos 3D excepcionais, programações avançadas e addons inovadores para Minecraft',
     backgroundImage: 'https://images.pexels.com/photos/5207262/pexels-photo-5207262.jpeg?auto=compress&cs=tinysrgb&w=1200',
     primaryButtonText: 'Ver Nossos Projetos',
@@ -42,13 +42,39 @@ export const siteConfig = {
 
   // Informações de contato
   contact: {
-    email: 'contact@teamcraft.com',
+    email: 'contact@FirstStudioss.com',
     phone: '+55 (11) 99999-9999',
     location: 'São Paulo, Brasil',
     socialMedia: {
       youtube: 'https://youtube.com',
       discord: 'https://discord.com',
       instagram: 'https://instagram.com'
+    }
+  },
+
+  // Representante de contato
+  contactRepresentative: {
+    name: 'Alex Thompson',
+    role: 'Representante Comercial',
+    bio: 'Responsável por atendimento ao cliente e negociações. Entre em contato para discutir seu projeto e receber um orçamento personalizado.',
+    image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
+    contact: {
+      email: 'alex@FirstStudioss.com',
+      phone: '+55 (11) 99999-9999',
+      discord: 'AlexThompson#1234'
+    }
+  },
+
+  // Parceria especial
+  specialPartnership: {
+    title: 'Parceria Especial',
+    name: 'MinecraftBR Studio',
+    description: 'Estúdio especializado em criação de conteúdo para Minecraft com foco em qualidade e inovação.',
+    image: 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400',
+    socialLink: {
+      platform: 'YouTube',
+      url: 'https://youtube.com',
+      buttonText: 'Ver no YouTube'
     }
   },
 

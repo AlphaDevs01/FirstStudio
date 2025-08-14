@@ -1,11 +1,14 @@
 import React from 'react';
+import { Youtube } from 'lucide-react';
 import { siteConfig, teamMembers } from '../../data/mockData';
 
 const Team: React.FC = () => {
+  const partnership = siteConfig.specialPartnership;
+
   return (
     <div className="min-h-screen bg-gray-100 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-[5px]">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">{siteConfig.pages.team.title}</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             {siteConfig.pages.team.description}
@@ -35,6 +38,44 @@ const Team: React.FC = () => {
           ))}
         </div>
       </div>
+
+      {/* Linha divisória */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-[5px]">
+        <hr className="border-gray-300 my-[50px]" />
+      </div>
+
+      {/* Seção de Parceria Especial */}
+      <div className="flex flex-col sm:flex-row items-center bg-white rounded-lg shadow-md overflow-hidden max-w-3xl mx-auto">
+        {/* Imagem */}
+        <div className="w-full sm:w-1/2">
+          <img 
+            src={partnership.image}
+            alt={partnership.name}
+            className="w-full h-48 sm:h-full object-cover"
+          />
+        </div>
+
+        {/* Texto */}
+        <div className="p-4 sm:p-6 flex flex-col justify-between w-full sm:w-1/2">
+          <div>
+            <h3 className="text-lg font-bold text-gray-900">{partnership.name}</h3>
+            <p className="text-green-700 font-semibold text-xs mb-2">Parceiro Oficial</p>
+            <p className="text-gray-600 text-sm mb-4">
+              Estúdio especializado em criação de conteúdo para Minecraft.
+            </p>
+          </div>
+          <a 
+            href={partnership.socialLink.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-green-800 hover:bg-green-900 text-white px-4 py-2 rounded-lg font-semibold flex items-center justify-center space-x-2 text-sm"
+          >
+            <Youtube size={14} />
+            <span>{partnership.socialLink.buttonText}</span>
+          </a>
+        </div>
+      </div>
+
     </div>
   );
 };

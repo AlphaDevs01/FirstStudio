@@ -5,12 +5,12 @@ import { TeamMember, Review, Category, ModelSet, ProgrammingSet, AddonSet } from
 // ==========================================
 export const siteConfig = {
   // Informações básicas
-  siteName: 'FirstStudio',
+  siteName: 'FirstStudios',
   siteDescription: 'Criamos experiências únicas através de modelos 3D excepcionais, programações avançadas e addons inovadores para Minecraft',
   
   // Hero Section
   hero: {
-    title: 'FirstStudio',
+    title: 'FirstStudios',
     subtitle: 'Criamos experiências únicas através de modelos 3D excepcionais, programações avançadas e addons inovadores para Minecraft',
     backgroundImage: 'https://images.pexels.com/photos/5207262/pexels-photo-5207262.jpeg?auto=compress&cs=tinysrgb&w=1200',
     primaryButtonText: 'Ver Nossos Projetos',
@@ -36,13 +36,28 @@ export const siteConfig = {
 
   // Informações de contato
   contact: {
-    email: 'contact@FirstStudio.com',
+    email: 'contact@FirstStudios.com',
     phone: '+55 (11) 99999-9999',
     location: 'São Paulo, Brasil',
     socialMedia: {
       youtube: 'https://youtube.com',
       discord: 'https://discord.com',
       instagram: 'https://instagram.com'
+    }
+  },
+
+  
+
+  // Parceria especial
+  specialPartnership: {
+    title: 'Parceria Especial',
+    name: 'MinecraftBR Studio',
+    description: 'Estúdio especializado em criação de conteúdo para Minecraft com foco em qualidade e inovação.',
+    image: '/equipe/Chimas.png',
+    socialLink: {
+      platform: 'YouTube',
+      url: 'https://youtube.com',
+      buttonText: 'Ver no YouTube'
     }
   },
 
@@ -80,31 +95,31 @@ export const siteConfig = {
 export const teamMembers: TeamMember[] = [
   {
     id: '1',
-    name: 'DIomar',
+    name: 'Hobs',
     role: 'Lead Developer',
     bio: 'Especialista em desenvolvimento de sistemas e scripts avançados com mais de 5 anos de experiência.',
-    image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400'
+    image: '/equipe/Hobs.png'
   },
   {
     id: '2',
-    name: 'Maria Santos',
+    name: 'Copper',
     role: '3D Artist',
     bio: 'Criadora de modelos 3D realistas para RPGs e veículos, especializada em texturas detalhadas.',
-    image: 'https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=400'
+    image: '/equipe/Copper.png'
   },
   {
     id: '3',
-    name: 'João Silva',
+    name: 'Chimas',
     role: 'Game Designer',
     bio: 'Designer focado em mecânicas de jogo e experiência do usuário em projetos Minecraft.',
-    image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400'
+    image: '/equipe/Chimas.png'
   },
   {
     id: '4',
-    name: 'Ana Costa',
+    name: 'Chica',
     role: 'Content Creator',
     bio: 'Criadora de conteúdo especializada em tutoriais e demonstrações de addons.',
-    image: 'https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&w=400'
+    image: '/equipe/Chica.png'
   }
 ];
 
