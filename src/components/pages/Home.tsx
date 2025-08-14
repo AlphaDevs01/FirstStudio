@@ -11,10 +11,15 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center bg-gradient-to-br from-black via-gray-900 to-green-900 overflow-hidden">
-        <div className="absolute inset-0 bg-black bg-opacity-40"></div>
-        <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/5207262/pexels-photo-5207262.jpeg?auto=compress&cs=tinysrgb&w=1200')] bg-cover bg-center opacity-30"></div>
-        
+      <section 
+        className="relative h-screen flex items-center justify-center bg-gradient-to-br from-black via-gray-900 to-green-900 overflow-hidden"
+        style={{
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('${siteConfig.hero.backgroundImage}')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      >
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-green-400 via-emerald-400 to-green-300 bg-clip-text text-transparent">
             {siteConfig.hero.title}
@@ -30,10 +35,10 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
               <span>{siteConfig.hero.primaryButtonText}</span>
               <ArrowRight size={20} />
             </button>
-            <button className="border-2 border-white text-white hover:bg-white hover:text-gray-900 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-200 flex items-center justify-center space-x-2">
+            {/* <button className="border-2 border-white text-white hover:bg-white hover:text-gray-900 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-200 flex items-center justify-center space-x-2">
               <Play size={20} />
               <span>{siteConfig.hero.secondaryButtonText}</span>
-            </button>
+            </button> */}
           </div>
         </div>
       </section>

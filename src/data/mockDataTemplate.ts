@@ -51,6 +51,12 @@ export const siteConfig = {
       instagram: 'https://instagram.com'
     }
   },
+    // Configurações do EmailJS
+  emailjs: {
+    serviceId: 'YOUR_SERVICE_ID', // Substitua pelo seu Service ID
+    templateId: 'YOUR_TEMPLATE_ID', // Substitua pelo seu Template ID
+    publicKey: 'YOUR_PUBLIC_KEY' // Substitua pela sua Public Key
+  },
 
   // Representante de contato
   contactRepresentative: {

@@ -12,7 +12,7 @@ export const siteConfig = {
   hero: {
     title: 'FirstStudios',
     subtitle: 'Criamos experiências únicas através de modelos 3D excepcionais, programações avançadas e addons inovadores para Minecraft',
-    backgroundImage: 'https://images.pexels.com/photos/5207262/pexels-photo-5207262.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    backgroundImage: 'public/banner.png',
     primaryButtonText: 'Ver Nossos Projetos',
     secondaryButtonText: 'Assista ao Demo'
   },
@@ -37,16 +37,21 @@ export const siteConfig = {
   // Informações de contato
   contact: {
     email: 'contact@FirstStudios.com',
-    phone: '+55 (11) 99999-9999',
+    phone: '+55 (15) 98824-1215',
     location: 'São Paulo, Brasil',
     socialMedia: {
-      youtube: 'https://youtube.com',
+      youtube: 'https://youtube.com/@first.studios?si=ZiBYDzwTIxNRFAca',
       discord: 'https://discord.com',
       instagram: 'https://instagram.com'
     }
   },
 
-  
+    // Configurações do EmailJS
+  emailjs: {
+    serviceId: 'service_4mky3fy', // Substitua pelo seu Service ID
+    templateId: 'YOUR_TEMPLATE_ID', // Substitua pelo seu Template ID
+    publicKey: 'YOUR_PUBLIC_KEY' // Substitua pela sua Public Key
+  },
 
   // Parceria especial
   specialPartnership: {
@@ -120,6 +125,13 @@ export const teamMembers: TeamMember[] = [
     role: 'Content Creator',
     bio: 'Criadora de conteúdo especializada em tutoriais e demonstrações de addons.',
     image: '/equipe/Chica.png'
+  },
+  {
+    id: '5',
+    name: 'Guzen',
+    role: 'Content Creator',
+    bio: 'Criadora de conteúdo especializada em tutoriais e demonstrações de addons.',
+    image: '/equipe/Guzen.png'
   }
 ];
 

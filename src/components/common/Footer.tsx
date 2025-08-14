@@ -10,12 +10,12 @@ const Footer: React.FC = () => {
       url: siteConfig.contact.socialMedia.youtube,
       color: 'text-red-600 hover:text-red-700'
     },
-    {
-      name: 'Discord',
-      icon: MessageCircle,
-      url: siteConfig.contact.socialMedia.discord,
-      color: 'text-indigo-600 hover:text-indigo-700'
-    },
+    // {
+    //   name: 'Discord',
+    //   icon: MessageCircle,
+    //   url: siteConfig.contact.socialMedia.discord,
+    //   color: 'text-indigo-600 hover:text-indigo-700'
+    // },
     {
       name: 'Instagram',
       icon: Instagram,
