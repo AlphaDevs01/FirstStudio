@@ -12,7 +12,7 @@ export const siteConfig = {
   hero: {
     title: 'FirstStudios',
     subtitle: 'Criamos experiências únicas através de modelos 3D excepcionais, programações avançadas e addons inovadores para Minecraft',
-    backgroundImage: 'public/banner.png',
+    backgroundImage: '/banner.png',
     primaryButtonText: 'Ver Nossos Projetos',
     secondaryButtonText: 'Assista ao Demo'
   },
@@ -36,7 +36,7 @@ export const siteConfig = {
 
   // Informações de contato
   contact: {
-    email: 'contact@FirstStudios.com',
+    email: 'firststudios.contact@gmail.com',
     phone: '+55 (15) 98824-1215',
     location: 'São Paulo, Brasil',
     socialMedia: {
@@ -49,20 +49,20 @@ export const siteConfig = {
     // Configurações do EmailJS
   emailjs: {
     serviceId: 'service_4mky3fy', // Substitua pelo seu Service ID
-    templateId: 'YOUR_TEMPLATE_ID', // Substitua pelo seu Template ID
-    publicKey: 'YOUR_PUBLIC_KEY' // Substitua pela sua Public Key
+    templateId: 'template_u4a8u89', // Substitua pelo seu Template ID
+    publicKey: 'IB8pZrf8D8BImCjp1' // Substitua pela sua Public Key
   },
 
   // Parceria especial
   specialPartnership: {
     title: 'Parceria Especial',
-    name: 'MinecraftBR Studio',
-    description: 'Estúdio especializado em criação de conteúdo para Minecraft com foco em qualidade e inovação.',
-    image: '/equipe/Chimas.png',
+    name: 'Turio',
+    description: 'Olá! Tudo bem? Sou o Turio, um animador 3D, artista pixel',
+    image: '/equipe/Turio.png',
     socialLink: {
-      platform: 'YouTube',
-      url: 'https://youtube.com',
-      buttonText: 'Ver no YouTube'
+      platform: 'Pagina ',
+      url: 'https://turio.carrd.co/',
+      buttonText: 'Ver na Página'
     }
   },
 
@@ -109,7 +109,7 @@ export const teamMembers: TeamMember[] = [
     id: '2',
     name: 'Copper',
     role: '3D Artist',
-    bio: 'Criadora de modelos 3D realistas para RPGs e veículos, especializada em texturas detalhadas.',
+    bio: 'Criador de modelos 3D realistas para RPGs e veículos, especializado em texturas detalhadas.',
     image: '/equipe/Copper.png'
   },
   {
@@ -123,14 +123,14 @@ export const teamMembers: TeamMember[] = [
     id: '4',
     name: 'Chica',
     role: 'Content Creator',
-    bio: 'Criadora de conteúdo especializada em tutoriais e demonstrações de addons.',
+    bio: 'Criadora de conteúdo especializada em modelos 3D e texturização.',
     image: '/equipe/Chica.png'
   },
   {
     id: '5',
     name: 'Guzen',
     role: 'Content Creator',
-    bio: 'Criadora de conteúdo especializada em tutoriais e demonstrações de addons.',
+    bio: 'Criadoro de conteúdo especializado em programções de addons.',
     image: '/equipe/Guzen.png'
   }
 ];
@@ -144,23 +144,74 @@ export const reviews: Review[] = [
     name: 'Carlos Oliveira',
     rating: 5,
     comment: 'Trabalho excepcional! Os modelos são extremamente detalhados e profissionais.',
-    image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400'
+    image: 'https://images.unsplash.com/photo-1603415526960-f7e0328b4a0f?w=400&h=400&fit=crop&crop=faces'
   },
   {
     id: '2',
     name: 'Fernanda Lima',
     rating: 5,
     comment: 'Os addons desenvolvidos pela equipe revolucionaram nosso servidor. Recomendo muito!',
-    image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400'
+    image: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=400&h=400&fit=crop&crop=faces'
   },
   {
     id: '3',
     name: 'Pedro Rocha',
     rating: 4,
     comment: 'Excelente suporte e qualidade. Os scripts funcionam perfeitamente.',
-    image: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=400'
+    image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop&crop=faces'
+  },
+  {
+    id: '4',
+    name: 'Mariana Souza',
+    rating: 5,
+    comment: 'A equipe superou minhas expectativas! Entrega rápida e qualidade impecável.',
+    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=faces'
+  },
+  {
+    id: '5',
+    name: 'João Ferreira',
+    rating: 4,
+    comment: 'Muito satisfeito com o resultado, embora tenha demorado um pouco mais que o esperado.',
+    image: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=400&h=400&fit=crop&crop=faces'
+  },
+  {
+    id: '6',
+    name: 'Larissa Mendes',
+    rating: 5,
+    comment: 'Profissionais atenciosos e comprometidos. Meu projeto ficou perfeito!',
+    image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=400&h=400&fit=crop&crop=faces'
+  },
+  {
+    id: '7',
+    name: 'Ricardo Martins',
+    rating: 3,
+    comment: 'Bom trabalho, mas encontrei alguns bugs que precisaram ser corrigidos depois.',
+    image: 'https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400&h=400&fit=crop&crop=faces'
+  },
+  {
+    id: '8',
+    name: 'Bianca Torres',
+    rating: 5,
+    comment: 'Simplesmente incrível! O nível de detalhes é impressionante.',
+    image: 'https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?w=400&h=400&fit=crop&crop=faces'
+  },
+  {
+    id: '9',
+    name: 'André Costa',
+    rating: 4,
+    comment: 'Atendimento muito bom, entrega no prazo e produto de qualidade.',
+    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop&crop=faces'
+  },
+  {
+    id: '10',
+    name: 'Sofia Almeida',
+    rating: 5,
+    comment: 'Fiquei impressionada com a criatividade e profissionalismo da equipe.',
+    image: 'https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=400&h=400&fit=crop&crop=faces'
   }
 ];
+
+
 
 // ==========================================
 // CATEGORIAS E MODELOS 3D
@@ -170,6 +221,21 @@ export const modelCategories: Category[] = [
     id: '1', 
     name: 'RPG', 
     description: 'Personagens e criaturas fantasy' 
+  },
+  { 
+    id: '2', 
+    name: 'Veículos', 
+    description: 'Modelos de veículos e transporte' 
+  },
+  { 
+    id: '3', 
+    name: 'Animais', 
+    description: 'Modelos de animais e criaturas' 
+  },
+  { 
+    id: '4', 
+    name: 'Equipamentos', 
+    description: 'Modelos de equipamentos e armas' 
   }
 ];
 
@@ -187,7 +253,7 @@ export const modelSets: ModelSet[] = [
       '/goblins/Full/Goblins0004.png',
       '/goblins/Full/Goblins0005.png',
     ],
-    detailedDescription: 'Set completo com 12 modelos únicos de goblins guerreiros, incluindo diferentes poses, armas e armaduras. Perfeito para aventuras RPG.'
+    detailedDescription: 'Set completo com 5 modelos únicos de goblins guerreiros, incluindo diferentes poses, armas e armaduras. Perfeito para aventuras RPG.'
   }
 ];
 
@@ -286,17 +352,17 @@ export const addonCategories: Category[] = [
   },
   { 
     id: '2', 
-    name: 'Veículos', 
+    name: 'Mobs', 
     description: 'Addons de transporte' 
   },
   { 
     id: '3', 
-    name: 'Máquinas', 
+    name: 'Equipamentos', 
     description: 'Automação e produção' 
   },
   { 
     id: '4', 
-    name: 'Decoração', 
+    name: 'Outros', 
     description: 'Itens decorativos e mobília' 
   }
 ];

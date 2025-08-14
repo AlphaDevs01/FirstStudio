@@ -61,7 +61,7 @@ const Team: React.FC = () => {
             <h3 className="text-lg font-bold text-gray-900">{partnership.name}</h3>
             <p className="text-green-700 font-semibold text-xs mb-2">Parceiro Oficial</p>
             <p className="text-gray-600 text-sm mb-4">
-              Estúdio especializado em criação de conteúdo para Minecraft.
+              {partnership.description}
             </p>
           </div>
           <a 
@@ -70,7 +70,6 @@ const Team: React.FC = () => {
             rel="noopener noreferrer"
             className="bg-green-800 hover:bg-green-900 text-white px-4 py-2 rounded-lg font-semibold flex items-center justify-center space-x-2 text-sm"
           >
-            <Youtube size={14} />
             <span>{partnership.socialLink.buttonText}</span>
           </a>
         </div>
