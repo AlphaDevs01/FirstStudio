@@ -26,7 +26,7 @@ const ComingSoon: React.FC<ComingSoonProps> = ({
         </button>
 
         {/* Main Content */}
-        <div className="bg-white bg-opacity-10 backdrop-blur-lg rounded-2xl p-12 shadow-2xl border border-white border-opacity-20">
+        <div className="bg-[rgb(22,101,52)] bg-opacity-10 backdrop-blur-lg rounded-2xl p-12 shadow-2xl border border-white border-opacity-20">
           {/* Icon */}
           <div className="w-24 h-24 bg-green-600 bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-8">
             <Clock size={48} className="text-green-400" />
@@ -44,7 +44,7 @@ const ComingSoon: React.FC<ComingSoonProps> = ({
 
           {/* Features Coming */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
-            <div className="bg-white bg-opacity-5 rounded-lg p-6 border border-white border-opacity-10">
+            <div className="bg-[rgb(22,101,52)] bg-opacity-5 rounded-lg p-6 border border-white border-opacity-10">
               <div className="w-12 h-12 bg-green-600 bg-opacity-20 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <Bell size={24} className="text-green-400" />
               </div>
@@ -54,7 +54,7 @@ const ComingSoon: React.FC<ComingSoonProps> = ({
               </p>
             </div>
 
-            <div className="bg-white bg-opacity-5 rounded-lg p-6 border border-white border-opacity-10">
+            <div className="bg-[rgb(22,101,52)] bg-opacity-5 rounded-lg p-6 border border-white border-opacity-10">
               <div className="w-12 h-12 bg-green-600 bg-opacity-20 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <Mail size={24} className="text-green-400" />
               </div>
@@ -75,7 +75,7 @@ const ComingSoon: React.FC<ComingSoonProps> = ({
             </button>
             <a
               href={`mailto:${siteConfig.contact.email}`}
-              className="border-2 border-white text-white hover:bg-white hover:text-gray-900 px-8 py-3 rounded-lg font-semibold transition-all duration-200 flex items-center justify-center space-x-2"
+              className="border-2 border-white text-white hover:bg-[rgb(22,101,52)] hover:text-gray-900 px-8 py-3 rounded-lg font-semibold transition-all duration-200 flex items-center justify-center space-x-2"
             >
               <Mail size={18} />
               <span>Entrar em Contato</span>

@@ -47,7 +47,7 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images, alt }) => {
               <div
                 key={index}
                 className={`w-2 h-2 rounded-full ${
-                  index === currentIndex ? 'bg-white' : 'bg-white bg-opacity-50'
+                  index === currentIndex ? 'bg-[rgb(22,101,52)]' : 'bg-[rgb(22,101,52)] bg-opacity-50'
                 }`}
               />
             ))}

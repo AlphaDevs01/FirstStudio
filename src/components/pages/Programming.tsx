@@ -52,7 +52,7 @@ const Programming: React.FC = () => {
             <div className="flex items-center space-x-4">
               <button
                 onClick={goToPreviousSet}
-                className="p-2 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-200"
+                className="p-2 bg-[rgb(22,101,52)] rounded-full shadow-md hover:shadow-lg transition-all duration-200"
               >
                 <ChevronLeft size={20} />
               </button>
@@ -61,7 +61,7 @@ const Programming: React.FC = () => {
               </span>
               <button
                 onClick={goToNextSet}
-                className="p-2 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-200"
+                className="p-2 bg-[rgb(22,101,52)] rounded-full shadow-md hover:shadow-lg transition-all duration-200"
               >
                 <ChevronRight size={20} />
               </button>
@@ -69,7 +69,7 @@ const Programming: React.FC = () => {
           </div>
 
           {/* Set Details */}
-          <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+          <div className="bg-[rgb(22,101,52)] rounded-xl shadow-lg overflow-hidden">
             <div className="p-8">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
                 <div>
@@ -93,7 +93,7 @@ const Programming: React.FC = () => {
               </div>
 
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                <div className="bg-gray-50 rounded-lg p-6">
+                <div className="bg-[rgb(22,101,52)] rounded-lg p-6">
                   <h2 className="text-xl font-semibold text-gray-900 mb-3">Detalhes Técnicos</h2>
                   <p className="text-gray-700 leading-relaxed">{selectedSet.technicalDetails}</p>
                 </div>
@@ -140,7 +140,7 @@ const Programming: React.FC = () => {
               className={`px-6 py-3 rounded-lg font-semibold transition-all duration-200 ${
                 selectedCategory === category.id
                   ? 'bg-green-800 text-white shadow-lg'
-                  : 'bg-white text-gray-600 hover:bg-gray-50 shadow-md'
+                  : 'bg-[rgb(22,101,52)] text-gray-600 hover:bg-[rgb(22,101,52)] shadow-md'
               }`}
             >
               {category.name}
@@ -154,7 +154,7 @@ const Programming: React.FC = () => {
             <div
               key={set.id}
               onClick={() => handleSetClick(set)}
-              className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer"
+              className="bg-[rgb(22,101,52)] rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer"
             >
               <div className="aspect-video overflow-hidden">
                 <img
