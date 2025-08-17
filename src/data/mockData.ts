@@ -254,6 +254,58 @@ export const modelSets: ModelSet[] = [
       '/goblins/Full/Goblins0005.png',
     ],
     detailedDescription: 'Set completo com 5 modelos únicos de goblins guerreiros, incluindo diferentes poses, armas e armaduras. Perfeito para aventuras RPG.'
+  },
+  {
+    id: '2',
+    name: 'Robots Pack',
+    categoryId: '1',
+    description: 'Conjunto completo de robôs futuristas com diferentes equipamentos e formas.',
+    images: [
+      '/robots pack/MachineGun.png',
+      '/robots pack/olhol_2.png',
+      '/robots pack/RobotWithGun.png',
+    ],
+    detailedDescription: 'Set completo com 5 modelos únicos de robôs, cada um com design exclusivo, incluindo diferentes poses, armas tecnológicas e estruturas mecânicas. Ideal para aventuras de ficção científica, RPGs e mundos futuristas.'
+  },
+  {
+    id: '3',
+    name: 'Chinese Mythology Pack',
+    categoryId: '1',
+    description: 'Conjunto completo de criaturas e heróis lendários da mitologia chinesa.',
+    images: [
+      '/Chinese Mythology Pack/Dragon.png',
+    ],
+    detailedDescription: 'Set completo com 5 modelos únicos, incluindo o poderoso Dragão Chinês, a majestosa Fênix, o lendário Rei Macaco, além de outras figuras místicas. Cada modelo apresenta poses distintas, armas tradicionais e detalhes inspirados na cultura oriental. Perfeito para aventuras épicas e mundos de fantasia.'
+  },
+  {
+    id: '4',
+    name: 'Dragons Warrior Pack',
+    categoryId: '1',
+    description: 'Conjunto completo de dragões lendários em diferentes estilos e com poses variadas.',
+    images: [
+      '',
+    ],
+    detailedDescription: 'Set completo com 5 modelos únicos de dragões, incluindo diferentes cores, asas, poses de voo e ataque. Cada dragão possui detalhes exclusivos de escamas e chamas. Perfeito para aventuras épicas de RPG e mundos de fantasia.'
+  },
+  {
+    id: '5',
+    name: 'Horror Pack',
+    categoryId: '1',
+    description: 'Conjunto completo de criaturas sombrias e assustadoras para aventuras de terror.',
+    images: [
+      '',
+    ],
+    detailedDescription: 'Set completo com 5 modelos únicos de monstros de horror, incluindo zumbis, espectros, criaturas deformadas e um assassino mascarado. Cada modelo traz poses e detalhes sombrios para criar a atmosfera perfeita em aventuras de RPG de terror.'
+  },
+  {
+    id: '6',
+    name: 'RPG Heroes Pack',
+    categoryId: '1',
+    description: 'Conjunto completo de heróis clássicos de RPG com diferentes classes e estilos.',
+    images: [
+      '',
+    ],
+    detailedDescription: 'Set com 5 personagens únicos: guerreiro, arqueira, maga, clériga e ladino. Cada modelo inclui poses e detalhes próprios, perfeitos para campanhas, mapas e aventuras de fantasia. Ideal para enriquecer qualquer universo de RPG.'
   }
 ];
 
