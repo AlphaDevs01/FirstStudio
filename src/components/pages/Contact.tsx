@@ -79,12 +79,12 @@ const Contact: React.FC = () => {
       url: siteConfig.contact.socialMedia.youtube,
       color: 'text-red-600 hover:text-red-700 hover:bg-red-50'
     },
-    // {
-    //   name: 'Discord',
-    //   icon: MessageCircle,
-    //   url: siteConfig.contact.socialMedia.discord,
-    //   color: 'text-indigo-600 hover:text-indigo-700 hover:bg-indigo-50'
-    // },
+    {
+      name: 'Discord',
+      icon: MessageCircle,
+      url: siteConfig.contact.socialMedia.discord,
+      color: 'text-indigo-600 hover:text-indigo-700 hover:bg-indigo-50'
+    },
     {
       name: 'Instagram',
       icon: Instagram,

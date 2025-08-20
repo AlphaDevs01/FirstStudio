@@ -41,7 +41,7 @@ export const siteConfig = {
     location: 'São Paulo, Brasil',
     socialMedia: {
       youtube: 'https://youtube.com/@first.studios?si=ZiBYDzwTIxNRFAca',
-      discord: 'https://discord.com',
+      discord: 'https://discord.gg/UybcVqA98n',
       instagram: 'https://instagram.com'
     }
   },
