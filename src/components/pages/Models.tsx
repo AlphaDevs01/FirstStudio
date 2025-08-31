@@ -143,7 +143,7 @@ const Models: React.FC<ModelsProps> = ({ selectedSetId }) => {
               onClick={() => handleSetClick(set)}
               className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer"
             >
-              <div className="aspect-video overflow-hidden">
+              <div className="aspect-video overflow-hidden bg-gary-200">
                 <img
                   src={set.images[0]}
                   alt={set.name}

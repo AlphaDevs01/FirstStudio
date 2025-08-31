@@ -20,7 +20,7 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images, alt }) => {
   if (images.length === 0) return null;
 
   return (
-    <div className="relative w-full bg-gray-100 rounded-lg overflow-hidden">
+    <div className="relative w-full bg-gray-900 rounded-lg overflow-hidden">
       <img
         src={images[currentIndex]}
         alt={`${alt} - Image ${currentIndex + 1}`}
